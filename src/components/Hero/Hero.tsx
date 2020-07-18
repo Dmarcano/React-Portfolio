@@ -10,7 +10,9 @@ const Hero = () => {
 
     return (
         <section id = 'hero' className="jumbotron">
-
+            <Container>
+                
+            </Container>
         </section>
     )
 }

@@ -12,7 +12,7 @@ namespace DataInterface {
     }
 
     interface HeroData { 
-
+        name : string
     }
 
     interface ProjectsData { 

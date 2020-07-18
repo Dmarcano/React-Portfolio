@@ -2,7 +2,11 @@ import DataInterface from "./interfaces";
 
 
 
-const mock_data : DataInterface.AppData = {
-    hero_data : {},
+const portfolio_data : DataInterface.AppData = {
+    hero_data : {
+        name : "Diego"
+    },
     projects_data : {}
 }
+
+export default portfolio_data;
