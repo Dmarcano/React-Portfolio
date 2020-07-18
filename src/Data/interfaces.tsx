@@ -6,12 +6,19 @@
 
 namespace DataInterface {
 
+    export interface AppData {
+        hero_data : HeroData
+        projects_data : ProjectsData
+    }
+
     interface HeroData { 
 
     }
 
-    interface ProjectData { 
+    interface ProjectsData { 
 
     }
 
 }
+
+export default DataInterface;

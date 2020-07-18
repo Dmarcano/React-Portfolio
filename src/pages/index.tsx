@@ -1,22 +1,28 @@
+import { Helmet } from 'react-helmet';
 import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import App from "../components/App"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
-)
+const IndexPage = () => {
+  let title = "simple"
+  let lang = 'en'
+  let description = 'description'
+
+  return(
+  <>
+    <Helmet>
+          <meta charSet="utf-8" />
+          <title>{title || 'Gatsby Simplefolio'}</title>
+          <html lang={lang || 'en'} />
+          <meta name="description" content={description || 'Gatsby Simplefolio'} />
+        </Helmet>
+    <App />
+  </>
+ )
+}
 
 export default IndexPage
