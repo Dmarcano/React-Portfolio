@@ -11,7 +11,7 @@ namespace DataInterface {
         projects_data : ProjectsData
     }
 
-    interface HeroData { 
+    export interface HeroData { 
         name : string
     }
 
