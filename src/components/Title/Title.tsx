@@ -1,8 +1,13 @@
 import React from 'react' 
+import Fade from 'react-reveal/Fade'
 
+const Title = ({title}) => { 
 
-const Title = () => { 
-    return <></>
+    return (
+        <Fade >
+            <h2 className="section-title">{title}</h2>
+        </Fade>
+    )
 }
 
 export default Title

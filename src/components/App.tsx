@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Hero from './Hero/Hero'
 import {PortfolioProvider} from '../context/context'
 import portfolio_data from '../Data/mock_data'
+import About from '../components/About/About'
 
 const App = () => {
     // load in the data to the 
@@ -13,6 +14,7 @@ const App = () => {
     return( 
         <div>
         <Hero {...hero_data}/>
+        <About />
         </div>
        
     )

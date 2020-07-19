@@ -2,7 +2,7 @@ import React , {useState, useEffect}from 'react'
 import {Container} from 'react-bootstrap'
 import Fade from 'react-reveal/Fade'
 import DataInterface from '../../Data/interfaces'
-import { Link } from 'gatsby';
+import { Link } from 'react-scroll';
 
 
 
@@ -37,7 +37,7 @@ export default function Hero(hero_data : DataInterface.HeroData ) {
                 <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
-              <Link to="about" smooth = {true} duration={1000}>
+              <Link to="about" smooth duration={1000}  >
                 See What I'm up to 
               </Link>
             </span>
