@@ -13,12 +13,12 @@ const IndexPage = () => {
 
   return(
   <>
-    <Helmet>
+    {/* <Helmet>
           <meta charSet="utf-8" />
           <title>{title || 'Gatsby Simplefolio'}</title>
           <html lang={lang || 'en'} />
           <meta name="description" content={description || 'Gatsby Simplefolio'} />
-      </Helmet>
+      </Helmet> */}
       
     <App />
   </>

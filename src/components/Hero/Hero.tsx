@@ -30,7 +30,7 @@ export default function Hero(hero_data : DataInterface.HeroData ) {
                         Hi, I'm {' '}
                         <span className="text-color-main">{hero_data.name}</span>
                         <br / >
-                        Software Engineer
+                        And I enjoy building
                     </h1>
                 </Fade>
             </Container>
