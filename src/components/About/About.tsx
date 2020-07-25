@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import DataInterface from '../../Data/interfaces'
 import { Container, Row, Col } from 'react-bootstrap';
