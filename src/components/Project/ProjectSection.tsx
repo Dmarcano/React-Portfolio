@@ -1,6 +1,6 @@
 import React from 'react'
 import DataInterface from '../../Data/interfaces'
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container} from 'react-bootstrap';
 import Title from '../Title/Title'
 import Project from './Project'
 
