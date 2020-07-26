@@ -20,5 +20,6 @@ const Project = (project_data : DataInterface.ProjectData) => {
         <>
         </>
     )
-
 }
+
+export default Project;

@@ -13,7 +13,7 @@ namespace DataInterface {
         project_section_data : ProjectSection
         about_data : AboutData
     }
-
+    
     export interface HeroData { 
         name : string
     }
