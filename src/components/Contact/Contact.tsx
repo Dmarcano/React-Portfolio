@@ -13,11 +13,11 @@ const Contact = (contact_info : DataInterface.ContactData) => {
     return (
         <section id="contact">
             <Container>
-                <Title title="contact" />
+                <Title title="contact me" />
                 <Fade bottom duration={1000} delay={800} distance="30px">
                 <div className="contact-wrapper">
                     <p className="contact-wrapper__text">
-                    { 'Would you like to work with me? Awesome!'}
+                    { 'Want to get in contact? Great!'}
                     </p>
                     <CopyToClipboard 
                     text={contact_info.email}

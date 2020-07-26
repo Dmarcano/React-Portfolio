@@ -19,7 +19,8 @@ namespace DataInterface {
     }
 
     export interface HeroData { 
-        name : string
+        name : string,
+        caption: string
     }
 
     export interface AboutData { 

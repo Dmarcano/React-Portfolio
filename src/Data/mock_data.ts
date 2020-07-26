@@ -2,6 +2,19 @@ import DataInterface from "./interfaces";
 
 
 const projects : Array<DataInterface.ProjectData>  = [
+    
+    {
+        id : 1,
+        title : "Face Blending App",
+        description : `Part of my Computer Vision final project. My partner and I implemented our own version of Laplacian 
+        Image Blending so we could blend our faces with the face of reference images nearly seamlessly. I'm currently working 
+        on finding a way of blending just facial features such as just a nose or eyes vs blending the whole face`,
+        github_url : "https://github.com/Dmarcano/faceBlending",
+        image : "FaceBlendingFirst.png",
+        demo_url : "https://drive.google.com/file/d/1p8pQMxuKee5ak4MFVfU3pqEkFQ0uKqaI/view?usp=sharing",
+    },
+
+   
     {
         id : 0,
         title : "Naive Bayes Tutorial Blog",
@@ -12,16 +25,6 @@ const projects : Array<DataInterface.ProjectData>  = [
         github_url : "https://github.com/Dmarcano/NaiveBayesNotebook/tree/master",
         image : "NaiveBayesDemo.png",
         demo_url : "https://naive-bayes-notebook.now.sh/"
-    },
-    {
-        id : 1,
-        title : "Face Blending App",
-        description : `Part of my Computer Vision final project. My partner and I implemented our own version of Laplacian 
-        Image Blending so we could blend our faces with the face of reference images nearly seamlessly. I'm currently working 
-        on finding a way of blending just sub facial features such as just a nose or eyes vs blending the whole face`,
-        github_url : "https://github.com/Dmarcano/faceBlending",
-        image : "FaceBlendingFirst.png",
-        demo_url : "https://drive.google.com/file/d/1p8pQMxuKee5ak4MFVfU3pqEkFQ0uKqaI/view?usp=sharing",
     },
 
     {
@@ -43,10 +46,9 @@ const contact : DataInterface.ContactData = {
 }
 
 const about : DataInterface.AboutData ={
-    paragraph_one :`Lorem ipsum dolor sit, amet consectetur adipisicing elit 
-        Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum 
-        dolor voluptatum consequatur blanditiis inventore debitis fuga
-         numquam voluptate architecto itaque molestiae.`,
+    paragraph_one :`Hi! My name is Diego Marcano and I'm a current Computer Science student
+    at Swarthmore College. I enjoy
+    `,
 
          paragraph_two: `Lorem ipsum dolor sit, amet consectetur adipisicing elit 
          Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum 
@@ -60,7 +62,8 @@ const about : DataInterface.AboutData ={
 
 const portfolio_data : DataInterface.AppData = {
     hero_data : {
-        name : "Diego"
+        name : "Diego",
+        caption : "I'm about building and learning"
     },
     project_section_data : { data : projects },
     
