@@ -2,7 +2,10 @@
  * This namespace
  * holds all the interfaces for the data used throughout the app
  * 
- * */ 
+ * */
+import { string } from "prop-types";
+
+ 
 
 namespace DataInterface {
 
@@ -12,6 +15,7 @@ namespace DataInterface {
         hero_data : HeroData
         project_section_data : ProjectSection
         about_data : AboutData
+        contact_data : ContactData
     }
 
     export interface HeroData { 
@@ -43,8 +47,12 @@ namespace DataInterface {
 
     }
 
-    interface ExperienceData { 
+    export interface ExperienceData { 
         
+    }
+
+    export interface ContactData { 
+        email : string
     }
 
 }
