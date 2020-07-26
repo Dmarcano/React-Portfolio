@@ -7,7 +7,7 @@ const portfolio_data : DataInterface.AppData = {
     hero_data : {
         name : "Diego"
     },
-    projects_data : { data : projects },
+    project_section_data : { data : projects },
     about_data : {
         paragraph_one :`Lorem ipsum dolor sit, amet consectetur adipisicing elit 
         Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum 

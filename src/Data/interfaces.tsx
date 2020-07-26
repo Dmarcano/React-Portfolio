@@ -8,7 +8,7 @@ namespace DataInterface {
 
     export interface AppData {
         hero_data : HeroData
-        projects_data : ProjectSection
+        project_section_data : ProjectSection
         about_data : AboutData
     }
 
