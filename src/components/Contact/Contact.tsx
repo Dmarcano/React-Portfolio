@@ -26,8 +26,8 @@ const Contact = (contact_info : DataInterface.ContactData) => {
                     <a className="cta-btn cta-btn--resume"  
                     target="_blank"
                     rel="noopener noreferrer"
-                    href={`mailto:${contact_info.email}`}
-                    onClick={()=> {return false;}}
+                    // href={`mailto:${contact_info.email}`}
+                    // onClick={()=> {return false;}}
                     // onClick={return false} 
                     >
                         {copied ? "Copied!" : "Copy My Email!"}
