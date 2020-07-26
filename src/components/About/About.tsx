@@ -42,13 +42,16 @@ const About = (about_data : DataInterface.AboutData) => {
                             <p className="about-wrapper__info-text">
                                 { about_data.paragraph_three}
                             </p>
+                            <span className="d-flex mt-3">
+
                             <a  className="cta-btn cta-btn--resume"
                                 href="/#"
                             >
                                 <Link to="about" smooth duration={1000}  >
                                     Resume
                                 </Link>
-                            </a>   
+                            </a>
+                            </span>
                         </div>
                     </Fade>
                 </Col>
