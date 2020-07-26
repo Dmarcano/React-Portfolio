@@ -3,7 +3,6 @@ import Fade from 'react-reveal/Fade';
 import DataInterface from '../../Data/interfaces'
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title'
-import { Link } from 'react-scroll';
 
 const About = (about_data : DataInterface.AboutData) => {
 
