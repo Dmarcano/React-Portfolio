@@ -52,9 +52,10 @@ const about : DataInterface.AboutData ={
     `,
 
     paragraph_two: `I've had a variety of experience from working in intimate lab settings, 
-    to working on with some of the largest companies in the buisness. I .`,
+    to working on with some of the largest companies in the buisness. I'm always looking to learn more and improve myself. 
+    I like creating software I can be proud of, learn from and move on to improving it.`,
 
-    paragraph_three: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.' ,
+    paragraph_three: 'Caught your interest? Look at my resume below or continue to check out some of my projects!' ,
 
     resume_url : "https://drive.google.com/file/d/1wsLU3fRnsHM0TKNIYkABKfMjmgtElRfQ/view?usp=sharing",
 
