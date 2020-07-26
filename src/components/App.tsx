@@ -7,14 +7,14 @@ import About from '../components/About/About'
 
 const App = () => {
     // load in the data to the 
-    const {hero_data} = portfolio_data;
+    const {hero_data, about_data} = portfolio_data;
     console.log(hero_data)
     // now we use the global context to feed in the data
 
     return( 
         <div>
         <Hero {...hero_data}/>
-        <About />
+        <About {...about_data}/>
         </div>
        
     )

@@ -24,8 +24,8 @@ namespace DataInterface {
 
     
 
-    interface ProjectsData { 
-
+    interface ProjectsData {
+          
     }
 
     interface ExperienceData { 
