@@ -45,11 +45,10 @@ const About = (about_data : DataInterface.AboutData) => {
                             <span className="d-flex mt-3">
 
                             <a  className="cta-btn cta-btn--resume"
-                                href="/#"
+                                href={about_data.resume_url || "/"} 
                             >
-                                <Link to="about" smooth duration={1000}  >
-                                    Resume
-                                </Link>
+                                Resume
+            
                             </a>
                             </span>
                         </div>
