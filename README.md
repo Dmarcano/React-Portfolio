@@ -6,4 +6,4 @@ Created by using the Gatsby CLI
 
 This is more or a less a typescript rewrite of that gatsby using the stylesheets that were provided by it. 
 
-![Website frontpage](/images/SiteImage.png)
+![Website frontpage](https://github.com/Dmarcano/React-Portfolio/blob/master/Images/SiteImage.png)
