@@ -9,7 +9,7 @@ import Footer from '../components/Footer/Footer'
 
 const App = () => {
     // load in the data to the 
-    const {hero_data, about_data, project_section_data} = portfolio_data;
+    const {hero_data, about_data, project_section_data, contact_data} = portfolio_data;
     console.log(hero_data)
     // now we use the global context to feed in the data
 
@@ -18,7 +18,7 @@ const App = () => {
         <Hero {...hero_data}/>
         <About {...about_data}/>
         <ProjectSection {...project_section_data} />
-        <Contact />
+        <Contact {...contact_data}/>
         <Footer />
         </div>
        

@@ -39,7 +39,7 @@ const projects : Array<DataInterface.ProjectData>  = [
 ]
 
 const contact : DataInterface.ContactData = { 
-    email : ""
+    email : "marcanp.diego@gmail.com"
 }
 
 const about : DataInterface.AboutData ={

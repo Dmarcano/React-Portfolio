@@ -1,9 +1,10 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
+import DataInterface from '../../Data/interfaces'
 import Title from '../Title/Title';
 
-const Contact = () => {
+const Contact = (contact_info : DataInterface.ContactData) => {
     return (
         <section id="contact">
             <Container>
@@ -17,8 +18,8 @@ const Contact = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn cta-btn--resume"
-                    // href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
-                    href = "#!"
+                    href={contact_info.email ? `mailto:${contact_info.email}` : '#!'}
+                    // href = "#!"
                     >
                     {"Let's Talk"}
                     </a>
