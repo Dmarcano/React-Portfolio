@@ -9,7 +9,7 @@ const Project = (project_data : DataInterface.ProjectData) => {
     const [isDesktop, setIsDesktop] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
     
-    const {id, image, description, title} = project_data;
+    const {id, image, description, title, github_url, demo_url} = project_data;
 
     useEffect(() => {
       if (window.innerWidth > 769) {
@@ -32,11 +32,10 @@ const Project = (project_data : DataInterface.ProjectData) => {
                     distance="30px"
                     >
                          <div className="project-wrapper__text">
-                            <h3 className="project-wrapper__text-title">{'Project Title'}</h3>
+                            <h3 className="project-wrapper__text-title">{title}</h3>
                             <div>
                             <p>
-                          { 
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                                {description }
                              </p>
 
                             </div>
@@ -44,7 +43,7 @@ const Project = (project_data : DataInterface.ProjectData) => {
                             target="_blank"
                             rel="noopener noreferrer"
                             className="cta-btn cta-btn--hero"
-                            href={'#!'}
+                            href={demo_url || "#!"}
                             >
                             Demo 
                             </a>
@@ -52,7 +51,7 @@ const Project = (project_data : DataInterface.ProjectData) => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="cta-btn text-color-main"
-                                href={"#!!"}
+                                href={github_url}
                             >
                                 Source Code
                             </a>
@@ -70,7 +69,7 @@ const Project = (project_data : DataInterface.ProjectData) => {
                 >
                     <div className="project-wrapper__image">
                     <a
-                        href={'#!'}
+                        href={demo_url ||'#!'}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
@@ -89,7 +88,7 @@ const Project = (project_data : DataInterface.ProjectData) => {
                           }}
                         >
                           <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={'project.jpg'} />
+                            <ProjectImg alt={title} filename={image} />
                           </div>
                         </Tilt>
                       </a>

@@ -10,7 +10,7 @@ const projects : Array<DataInterface.ProjectData>  = [
         Naive Bayes classifier first in python then javascript to better create a small blog with a small 
         interactive component.`,
         github_url : "https://github.com/Dmarcano/NaiveBayesNotebook/tree/master",
-        image : "",
+        image : "NaiveBayesDemoPicture.png",
         demo_url : "https://naive-bayes-notebook.now.sh/"
     },
     {
@@ -20,7 +20,7 @@ const projects : Array<DataInterface.ProjectData>  = [
         Image Blending, I blend my face with the face of reference images nearly seamlessly. I'm currently working 
         on finding a way of blending just sub facial features such as just a nose or eyes vs blending the whole face`,
         github_url : "https://github.com/Dmarcano/faceBlending",
-        image : "",
+        image : "project.jpg",
     }
 
 ]
