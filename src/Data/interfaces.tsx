@@ -13,7 +13,7 @@ namespace DataInterface {
         project_section_data : ProjectSection
         about_data : AboutData
     }
-    
+
     export interface HeroData { 
         name : string
     }
@@ -30,7 +30,7 @@ namespace DataInterface {
         data : Array<ProjectData>
     }
     export interface ProjectData {
-          image  : ImageData,
+          image  : string,
           title  : string, 
           description  : string, 
           id  : number ,
