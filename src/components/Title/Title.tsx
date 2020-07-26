@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade'
 const Title = ({title}) => { 
 
     return (
-        <Fade >
+        <Fade bottom duration={1000} delay={300} distance="0px">
             <h2 className="section-title">{title}</h2>
         </Fade>
     )

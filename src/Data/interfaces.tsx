@@ -17,13 +17,22 @@ namespace DataInterface {
     }
 
     export interface AboutData { 
-
+        paragraph_one : string,
+        paragraph_two  : string,
+        paragraph_three  : string, 
     }
+
+    
 
     interface ProjectsData { 
 
     }
 
+    interface ExperienceData { 
+        
+    }
+
 }
+
 
 export default DataInterface;
