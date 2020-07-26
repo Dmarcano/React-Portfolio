@@ -7,8 +7,8 @@ const projects : Array<DataInterface.ProjectData>  = [
         title : "Naive Bayes Tutorial Blog",
         description : `My intro to probability final project. A Small tutorial blog of how the Naive Bayes 
         classifier works from a probability point of view. I implemented a binary 
-        Naive Bayes classifier first in python then javascript to better create a small blog with a small 
-        interactive component.`,
+        Naive Bayes classifier first in python then javascript to better create a small blog with an
+        interactive demo component.`,
         github_url : "https://github.com/Dmarcano/NaiveBayesNotebook/tree/master",
         image : "NaiveBayesDemo.png",
         demo_url : "https://naive-bayes-notebook.now.sh/"

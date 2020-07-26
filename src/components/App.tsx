@@ -4,6 +4,7 @@ import Hero from './Hero/Hero'
 import portfolio_data from '../Data/mock_data'
 import About from '../components/About/About'
 import ProjectSection from '../components/Project/ProjectSection'
+import Contact from '../components/Contact/Contact'
 
 const App = () => {
     // load in the data to the 
@@ -16,6 +17,7 @@ const App = () => {
         <Hero {...hero_data}/>
         <About {...about_data}/>
         <ProjectSection {...project_section_data} />
+        <Contact />
         </div>
        
     )
