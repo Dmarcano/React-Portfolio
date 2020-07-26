@@ -16,21 +16,22 @@ const projects : Array<DataInterface.ProjectData>  = [
     {
         id : 1,
         title : "Face Blending App",
-        description : `Part of my Computer Vision Final Project. Using my own implementation of Laplacian 
-        Image Blending, I blend my face with the face of reference images nearly seamlessly. I'm currently working 
+        description : `Part of my Computer Vision final project. My partner and I implemented our own version of Laplacian 
+        Image Blending so we could blend our faces with the face of reference images nearly seamlessly. I'm currently working 
         on finding a way of blending just sub facial features such as just a nose or eyes vs blending the whole face`,
         github_url : "https://github.com/Dmarcano/faceBlending",
-        image : "project.jpg",
+        image : "FaceBlendingFirst.png",
     },
 
     {
-        id: 0, 
+        id: 2, 
         title : "Where Da Trash At: A Sustainability Hack",
         description : `A PennApps Fall 2019 Hackathon Submission. We created a web-app that leveraged Google Cloud 
-        to classify `,
+        to classify areas with high trash density. These areas are stored with location information so anyone can log on, look for 
+        and pick up the trash for score.`,
         github_url : "https://github.com/oadikema/Where-Da-Trash-At",
         demo_url : "https://devpost.com/software/where-da-trash-at",
-        image : "project.jpg",
+        image : "Banner.png",
     }
 
 
