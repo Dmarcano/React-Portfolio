@@ -21,6 +21,7 @@ const projects : Array<DataInterface.ProjectData>  = [
         on finding a way of blending just sub facial features such as just a nose or eyes vs blending the whole face`,
         github_url : "https://github.com/Dmarcano/faceBlending",
         image : "FaceBlendingFirst.png",
+        demo_url : "https://drive.google.com/file/d/1p8pQMxuKee5ak4MFVfU3pqEkFQ0uKqaI/view?usp=sharing",
     },
 
     {
