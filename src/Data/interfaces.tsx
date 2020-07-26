@@ -27,7 +27,8 @@ namespace DataInterface {
         paragraph_one : string,
         paragraph_two  : string,
         paragraph_three  : string, 
-        resume_url ?: string
+        resume_url : string
+        about_img  : string
     }
 
     

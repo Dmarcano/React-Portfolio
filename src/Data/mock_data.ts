@@ -47,17 +47,18 @@ const contact : DataInterface.ContactData = {
 
 const about : DataInterface.AboutData ={
     paragraph_one :`Hi! My name is Diego Marcano and I'm a current Computer Science student
-    at Swarthmore College. I enjoy
+    at Swarthmore College. I enjoy building great scalable software. I've worked across several disciplines
+    ranging from creating and maintaing back-end, full-stack, and data science applications. 
     `,
 
-         paragraph_two: `Lorem ipsum dolor sit, amet consectetur adipisicing elit 
-         Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum 
-         dolor voluptatum consequatur blanditiis inventore debitis fuga
-          numquam voluptate architecto itaque molestiae.`,
+    paragraph_two: `I've had a variety of experience from working in intimate lab settings, 
+    to working on with some of the largest companies in the buisness. I .`,
 
-         paragraph_three: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.' ,
+    paragraph_three: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.' ,
 
-         resume_url : "https://drive.google.com/file/d/1wsLU3fRnsHM0TKNIYkABKfMjmgtElRfQ/view?usp=sharing"
+    resume_url : "https://drive.google.com/file/d/1wsLU3fRnsHM0TKNIYkABKfMjmgtElRfQ/view?usp=sharing",
+
+    about_img : "IconsPortfolio.png"
 }
 
 const portfolio_data : DataInterface.AppData = {

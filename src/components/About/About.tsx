@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import DataInterface from '../../Data/interfaces'
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title'
+import AboutImg from './AboutImg'
 
 const About = (about_data : DataInterface.AboutData) => {
 
@@ -26,7 +27,7 @@ const About = (about_data : DataInterface.AboutData) => {
                 <Row>
                     <Col  md={6} sm={12}>
                         <Fade bottom duration={1000} delay={600} distance="30px">
-                            <h1>Filler Image</h1>
+                        <AboutImg alt="project.png" filename={about_data.about_img} />
                         </Fade>
                     </Col>
                     <Col  md={6} sm={12}>
