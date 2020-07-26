@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Hero from './Hero/Hero'
-import {PortfolioProvider} from '../context/context'
 import portfolio_data from '../Data/mock_data'
 import About from '../components/About/About'
+import ProjectSection from '../components/Project/ProjectSection'
 
 const App = () => {
     // load in the data to the 
@@ -15,6 +15,7 @@ const App = () => {
         <div>
         <Hero {...hero_data}/>
         <About {...about_data}/>
+        <ProjectSection/>
         </div>
        
     )
