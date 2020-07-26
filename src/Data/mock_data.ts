@@ -10,7 +10,7 @@ const projects : Array<DataInterface.ProjectData>  = [
         Naive Bayes classifier first in python then javascript to better create a small blog with a small 
         interactive component.`,
         github_url : "https://github.com/Dmarcano/NaiveBayesNotebook/tree/master",
-        image : "NaiveBayesDemoPicture.png",
+        image : "NaiveBayesDemo.png",
         demo_url : "https://naive-bayes-notebook.now.sh/"
     },
     {
@@ -21,7 +21,18 @@ const projects : Array<DataInterface.ProjectData>  = [
         on finding a way of blending just sub facial features such as just a nose or eyes vs blending the whole face`,
         github_url : "https://github.com/Dmarcano/faceBlending",
         image : "project.jpg",
+    },
+
+    {
+        id: 0, 
+        title : "Where Da Trash At: A Sustainability Hack",
+        description : `A PennApps Fall 2019 Hackathon Submission. We created a web-app that leveraged Google Cloud 
+        to classify `,
+        github_url : "https://github.com/oadikema/Where-Da-Trash-At",
+        demo_url : "https://devpost.com/software/where-da-trash-at",
+        image : "project.jpg",
     }
+
 
 ]
 
@@ -43,7 +54,7 @@ const portfolio_data : DataInterface.AppData = {
 
          paragraph_three: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.' ,
 
-         resume_url : "/#"
+         resume_url : "https://drive.google.com/file/d/1wsLU3fRnsHM0TKNIYkABKfMjmgtElRfQ/view?usp=sharing"
     }
 }
 
