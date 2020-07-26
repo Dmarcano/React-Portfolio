@@ -5,6 +5,7 @@ import portfolio_data from '../Data/mock_data'
 import About from '../components/About/About'
 import ProjectSection from '../components/Project/ProjectSection'
 import Contact from '../components/Contact/Contact'
+import Footer from '../components/Footer/Footer'
 
 const App = () => {
     // load in the data to the 
@@ -18,6 +19,7 @@ const App = () => {
         <About {...about_data}/>
         <ProjectSection {...project_section_data} />
         <Contact />
+        <Footer />
         </div>
        
     )
