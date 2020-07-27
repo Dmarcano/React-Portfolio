@@ -62,6 +62,17 @@ const about : DataInterface.AboutData ={
     about_img : "IconsPortfolio.png"
 }
 
+const work : DataInterface.WorkSection = {
+    work_data : [
+        {
+            title : '',
+            description : '',
+            company : '',
+            image : '',
+        }
+    ]
+}
+
 const portfolio_data : DataInterface.AppData = {
     hero_data : {
         name : "Diego",
@@ -71,7 +82,9 @@ const portfolio_data : DataInterface.AppData = {
     
     about_data : about,
 
-    contact_data : contact
+    contact_data : contact,
+
+    experience_data : work
     
 }
 

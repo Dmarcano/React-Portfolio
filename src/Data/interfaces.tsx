@@ -3,7 +3,6 @@
  * holds all the interfaces for the data used throughout the app
  * 
  * */
-import { string } from "prop-types";
 
  
 
@@ -16,6 +15,7 @@ namespace DataInterface {
         project_section_data : ProjectSection
         about_data : AboutData
         contact_data : ContactData
+        experience_data: 
     }
 
     export interface HeroData { 
@@ -43,6 +43,7 @@ namespace DataInterface {
           github_url : string,  
           demo_url ? : string, 
           technologies ? : Array<Technology> 
+
     }
 
     export interface Technology { 
@@ -57,6 +58,17 @@ namespace DataInterface {
         email : string
     }
 
+    export interface WorkSection {
+        work_data : Array<WorkExperience>
+    }
+
+    export interface WorkExperience{
+        title : string, 
+        company  : string,
+        description : string, 
+        image ?: string,
+        link ? : string,
+    }
 }
 
 
