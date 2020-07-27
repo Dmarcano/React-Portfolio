@@ -15,7 +15,7 @@ namespace DataInterface {
         project_section_data : ProjectSection
         about_data : AboutData
         contact_data : ContactData
-        experience_data: 
+        experience_data: WorkSection
     }
 
     export interface HeroData { 

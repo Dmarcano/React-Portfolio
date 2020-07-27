@@ -4,6 +4,7 @@ import Fade from 'react-reveal/Fade';
 import DataInterface from '../../Data/interfaces'
 import Title from '../Title/Title'
 import ProjectSection from '../Project/ProjectSection'
+import WorkSection from '../Experience/WorkSection'
 
 interface CarouselProp {
     work_section : DataInterface.WorkSection,
@@ -22,7 +23,7 @@ const MyCarousel = (props : CarouselProp) => {
            </Carousel.Item>
            <Carousel.Item>
            <Title title = "Work Experience"></Title>
-
+                <WorkSection {...props.work_section}/>
            </Carousel.Item>
         </Carousel>
        </>
