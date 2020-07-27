@@ -63,6 +63,7 @@ namespace DataInterface {
     }
 
     export interface WorkExperience{
+        id : number,
         title : string, 
         company  : string,
         description : string, 

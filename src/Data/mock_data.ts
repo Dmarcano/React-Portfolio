@@ -1,5 +1,10 @@
 import DataInterface from "./interfaces";
 
+const fillerText = `orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+sunt in culpa qui officia deserunt mollit anim id est laborum`
 
 const projects : Array<DataInterface.ProjectData>  = [
     
@@ -65,9 +70,26 @@ const about : DataInterface.AboutData ={
 const work : DataInterface.WorkSection = {
     work_data : [
         {
-            title : '',
-            description : '',
-            company : '',
+            id:0,
+            title : 'Software Engineer Intern',
+            description : fillerText,
+            company : 'Facebook',
+            image : '',
+        },
+
+        {
+            id : 1,
+            title : 'REU Researcher',
+            description : fillerText,
+            company : 'WASHU St. Louis',
+            image : '',
+        }, 
+
+        {
+            id : 2,
+            title : 'Undergraduate Researcher',
+            description : fillerText,
+            company : 'Swarthmore College',
             image : '',
         }
     ]

@@ -7,7 +7,8 @@ const WorkSection = (props : DataInterface.WorkSection) => {
     
 
     return (
-        <section id = "work">
+        <section id = "projects">
+            <Container>
             <div className="project-wrapper">
                 {props.work_data.map(work => {
                     return (
@@ -15,6 +16,7 @@ const WorkSection = (props : DataInterface.WorkSection) => {
                     )
                 } )}
             </div>
+            </Container>
         </section>
     )
 }

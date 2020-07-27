@@ -35,7 +35,7 @@ const Project = (project_data : DataInterface.ProjectData) => {
                             <h3 className="project-wrapper__text-title">{title}</h3>
                             <div>
                             <p>
-                                {description }
+                                {description}
                              </p>
 
                             </div>
