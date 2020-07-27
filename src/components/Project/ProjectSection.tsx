@@ -9,7 +9,7 @@ const ProjectSection = (project_section_data : DataInterface.ProjectSection) => 
     <section id = "projects">
         <Container>
             <div className="project-wrapper">
-                <Title title = "Projects"></Title>
+               
                 {project_section_data.data.map((project)=> {
                     return(
                         <Project {...project} />

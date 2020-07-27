@@ -8,7 +8,7 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
 const Contact = (contact_info : DataInterface.ContactData) => {
 
     const [copied, setCopied] = React.useState(false);
-    const [copyText, setCopyText] = React.useState(copied ? "Copied!" : "Copy My Email!");
+    const target = React.useRef(null);
 
     return (
         <section id="contact">
@@ -20,21 +20,27 @@ const Contact = (contact_info : DataInterface.ContactData) => {
                     { 'Want to get in contact? Great!'}
                     </p>
                     <CopyToClipboard 
-                    text={contact_info.email}
-                    onCopy={() => setCopied(!copied)}>
-                    
-                    <a className="cta-btn cta-btn--resume"  
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    // href={`mailto:${contact_info.email}`}
-                    // onClick={()=> {return false;}}
-                    // onClick={return false} 
-                    >
-                        {copied ? "Copied!" : "Copy My Email!"}
-                        </a>
+                        text={contact_info.email}
+                        onCopy={() => setCopied(!copied)}
+                        >
+                        
+                        <a  className="cta-btn cta-btn--resume"  
+                            target="_blank"
+                            ref = {target}
+                            //rel="noopener noreferrer"
+                        >
+                            {"Copy My Email!"}
+                        </a >
                     </CopyToClipboard >
-                </div>
-        </Fade>
+                    <Overlay target={target.current} show={copied} placement="right">
+                        {(props) => (
+                        <Tooltip  {...props} bsPrefix = 'cpy-btn'>
+                            Copied!
+                        </Tooltip>
+                        )}
+                    </Overlay>
+                    </div>
+                </Fade>
             </Container>
         </section>
     )
