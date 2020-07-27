@@ -5,14 +5,16 @@ import DataInterface from '../../Data/interfaces'
 
 interface CarouselProp {
     work_section : DataInterface.WorkSection,
-    project_sectoin : DataInterface.ProjectSection
+    project_section : DataInterface.ProjectSection
 }
 
 const Carousel = (props : CarouselProp) => {
 
+    const [section, setSection] = React.useState('project_section');
+    
     return (
         <div>
-            
+
         </div>
     )
 

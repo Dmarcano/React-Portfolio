@@ -1,6 +1,6 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
-import { Container } from 'react-bootstrap';
+import { Container, Overlay, Tooltip } from 'react-bootstrap';
 import DataInterface from '../../Data/interfaces'
 import Title from '../Title/Title';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
@@ -21,7 +21,7 @@ const Contact = (contact_info : DataInterface.ContactData) => {
                     </p>
                     <CopyToClipboard 
                     text={contact_info.email}
-                    onCopy={() => setCopied(true)}>
+                    onCopy={() => setCopied(!copied)}>
                     
                     <a className="cta-btn cta-btn--resume"  
                     target="_blank"
