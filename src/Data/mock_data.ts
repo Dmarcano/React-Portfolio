@@ -51,12 +51,13 @@ const contact : DataInterface.ContactData = {
 }
 
 const about : DataInterface.AboutData ={
-    paragraph_one :`Hi! My name is Diego Marcano and I'm a current Computer Science student
-    at Swarthmore College. I enjoy building great scalable software. I've worked across several disciplines
-    ranging from creating and maintaing back-end, full-stack, and data science applications. 
+    paragraph_one :`Hi! My name is Diego Marcano and I'm currently a Computer Science student
+    at Swarthmore College. I enjoy writing software and learning as much as I can from the process.
+    I've worked across several different types of projects.
+    Ranging from creating and maintaing back-end, full-stack, and data science applications. 
     `,
 
-    paragraph_two: `I've had a variety of experience from working in intimate lab settings, 
+    paragraph_two: `I've had a variety of experience from working in research lab settings, 
     to working on with some of the largest companies in the buisness. I'm always looking to learn more and improve myself. 
     I like creating software I can be proud of, learn from and move on to improving it.`,
 
