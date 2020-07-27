@@ -7,19 +7,15 @@ import '../../style/main.scss';
 import App from "../components/App"
 
 const IndexPage = () => {
-  let title = "simple"
-  let lang = 'en'
-  let description = 'description'
 
   return(
   <>
-    {/* <Helmet>
+    <Helmet>
           <meta charSet="utf-8" />
-          <title>{title || 'Gatsby Simplefolio'}</title>
-          <html lang={lang || 'en'} />
-          <meta name="description" content={description || 'Gatsby Simplefolio'} />
-      </Helmet> */}
-      
+          <title>{ "Diego's Portfolio"}</title>
+          <html lang={'en'} />
+          <meta name="description" content={'My Portfolio'} />
+      </Helmet>
     <App />
   </>
  )

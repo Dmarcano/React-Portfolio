@@ -18,8 +18,8 @@ const App = () => {
         <div>
         <Hero {...hero_data}/>
         <About {...about_data}/>
-        <MyCarousel {...{project_section : project_section_data, work_section: experience_data}} />
-        {/* <ProjectSection {...project_section_data} /> */}
+        {/* <MyCarousel {...{project_section : project_section_data, work_section: experience_data}} /> */}
+        <ProjectSection {...project_section_data} />
         <Contact {...contact_data}/>
         <Footer />
         </div>
