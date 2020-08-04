@@ -63,7 +63,7 @@ const about : DataInterface.AboutData ={
 
     paragraph_three: 'Caught your interest? Look at my resume below or continue to check out some of my projects!' ,
 
-    resume_url : "https://drive.google.com/file/d/1wsLU3fRnsHM0TKNIYkABKfMjmgtElRfQ/view?usp=sharing",
+    resume_url : "https://drive.google.com/file/d/1uoKbb_qaQAbs-OctTukyl3_1opAHIjFi/view?usp=sharing",
 
     about_img : "IconsPortfolio.png"
 }
