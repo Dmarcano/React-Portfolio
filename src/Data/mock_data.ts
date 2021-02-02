@@ -7,6 +7,15 @@ velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid
 sunt in culpa qui officia deserunt mollit anim id est laborum`
 
 const projects : Array<DataInterface.ProjectData>  = [
+
+    {
+        id : 0, 
+        title : "Chip8 Interpreter", 
+        description : "A Chip8 virtual Machine interpreter written in Rust and compiled to WebAssembly", 
+        github_url : "https://github.com/Dmarcano/rustChip8", 
+        demo_url : "https://www.wasmchip8.diegomarcano.dev", 
+        image : "chip8_snake.png"
+    },
     
     {
         id : 1,
@@ -21,7 +30,7 @@ const projects : Array<DataInterface.ProjectData>  = [
 
    
     {
-        id : 0,
+        id : 2,
         title : "Naive Bayes Tutorial Blog",
         description : `My intro to probability final project. A Small tutorial blog of how the Naive Bayes 
         classifier works from a probability point of view. I implemented a binary 
@@ -33,7 +42,7 @@ const projects : Array<DataInterface.ProjectData>  = [
     },
 
     {
-        id: 2, 
+        id: 3, 
         title : "Where Da Trash At: A Sustainability Hack",
         description : `A PennApps Fall 2019 Hackathon Submission. We created a web-app that leveraged Google Cloud 
         to classify areas with high trash density. These areas are stored with location information so anyone can log on, look for 
@@ -99,7 +108,7 @@ const work : DataInterface.WorkSection = {
 const portfolio_data : DataInterface.AppData = {
     hero_data : {
         name : "Diego",
-        caption : "I'm about building and learning"
+        caption : "SWE: Fullstack, Backend, Systems"
     },
     project_section_data : { data : projects },
     
