@@ -17,7 +17,7 @@ const Contact = (contact_info : DataInterface.ContactData) => {
                 <Fade bottom duration={1000} delay={800} distance="30px">
                 <div className="contact-wrapper">
                     <p className="contact-wrapper__text">
-                    { 'Want to get in contact? Great!'}
+                    { 'Want to get in contact?'}
                     </p>
                     <CopyToClipboard 
                         text={contact_info.email}
